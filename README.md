@@ -4,7 +4,6 @@
 
 This project investigates core and accessory genome variation, antimicrobial resistance (AMR)-associated determinants, and virulence-associated gene distributions across 12 selected *Salmonella enterica* genome assemblies.
 
-The analysis integrates genome annotation, pangenome analysis, AMR determinant screening, and virulence-associated gene screening to explore genomic similarities and differences among the selected assemblies.
 
 **Project type:** Comparative genomics and bioinformatics  
 **Organism:** *Salmonella enterica*  
@@ -28,7 +27,7 @@ The analysis integrates genome annotation, pangenome analysis, AMR determinant s
 6. **Integration and quality checks:** Organized the output into presence matrices, hit-level tables, summary statistics, and documentation.
 7. **Exploratory phylogenetic analysis:** Generated a core-genome alignment and exploratory **IQ-TREE** output; this analysis should be treated as preliminary unless its support and reproducibility are further validated.
 
-
+```text
                   [12 uploaded .fna FASTA files]
                                 │
                                 ▼
@@ -55,6 +54,7 @@ The analysis integrates genome annotation, pangenome analysis, AMR determinant s
                                                 6. Phylogenetic Tree
                                                 Tool: [IQ-TREE] or [FastTree]
                                                 Outputs: Newick (`.nwk`) tree file
+```
 
 ## Key Findings
 
