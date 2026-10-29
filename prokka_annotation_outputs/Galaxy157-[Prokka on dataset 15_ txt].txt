@@ -1,0 +1,8 @@
+organism: Salmonella enteritica strain 
+contigs: 1
+bases: 4710936
+CDS: 4394
+rRNA: 22
+repeat_region: 2
+tRNA: 84
+tmRNA: 1

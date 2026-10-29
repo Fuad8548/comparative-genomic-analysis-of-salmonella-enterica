@@ -1,0 +1,31 @@
+Project 2 consolidated package — validation checks
+==================================================
+Roary official totals parsed from original output: 4916
+- Core: 4237
+- Soft core: 0
+- Shell: 357
+- Cloud: 322
+- Accessory = shell + cloud: 679
+- Total: 4916
+
+Consistency checks:
+- Roary gene presence/absence rows: 4916; expected 4916; PASS
+- Assembly records in genome summary: 12; expected 12; PASS
+- Per-genome Roary present-cluster counts match reconstructed summary: PASS
+- Accessory feature columns in integrated matrix: 679; expected 679; PASS
+- Per-genome sums across accessory columns equal accessory cluster counts: PASS
+- AMR feature columns in AMR matrix: 11; binary presences total 12; ledger hit rows 12
+- AMR reported hit counts sum: 12; PASS
+- VFDB hit rows sum: 1951; distinct symbols across whole pilot: 165
+- Variable VFDB symbols: 11; prevalence counts: sspH2=11/12, shdA=10/12, mig-5=9/12, pefA=9/12, pefB=9/12, pefC=9/12, pefD=9/12, rck=9/12, spvB=9/12, spvC=9/12, spvD=9/12
+- Identity disagreements in audit: 11/12
+
+Interpretive caveats are described in PROJECT2_CONSOLIDATED_REPORT.md.
+
+Identity reconciliation update (22 October 2026):
+- NCBI TaxID 149539 is *Salmonella enterica* subsp. *enterica* serovar Enteritidis; project provenance says the pilot came from this taxon pool.
+- Computed-type field in the audit: Enteritidis for 12/12.
+- Submitter versus computed-type disagreements retained: 11/12.
+- Accession-specific Enteritidis organism labels surfaced in a RefSeq-derived index: 7/12.
+- Five newer accession labels were not independently surfaced in that indexed check; this does not imply disagreement, only that direct current-record checks remain recommended.
+- Original submitter metadata were preserved; see identity_reconciliation_audit.csv and IDENTITY_RECONCILIATION_NOTE.md.
